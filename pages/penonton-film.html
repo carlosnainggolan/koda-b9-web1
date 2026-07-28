@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Penonton Film</title>
+</head>
+<body>
+  <form>
+    <p>Survey Penonton Film</p>
+    <div>
+      <label for="name">Nama</label>
+      <br>
+      <input type="text" id="name" placeholder="Masukkan nama">
+    </div>
+
+    <div>
+      <label for="age">Umur</label>
+      <br>
+      <input type="number" id="age" placeholder="Masukkan Umur">
+    </div>
+
+    <div>
+      <p>Jenis Kelamin</p>
+      <input type="radio" id="male">
+      <label for="male">Laki-laki</label>
+      <br>
+      <input type="radio" id="female">
+      <label for="female">Perempuan</label>
+    </div>
+
+    <div>
+      <p>Apakah anda hobi menonton film?</p>
+      <select id="pilihan">
+        <option value="" disabled>Pilih salah satu</option>
+        <option value="ya">Ya</option>
+        <option value="tidak">Tidak</option>
+      </select>
+    </div>
+
+    <div>
+      <p>Genre film yang disukai</p>
+      <input type="checkbox" id="horor">
+      <label for="horor">Horor</label>
+      <br>
+      <input type="checkbox" id="romance">
+      <label for="romance">Romance</label>
+      <br>
+      <input type="checkbox" id="action">
+      <label for="action">Action</label>
+    </div>
+
+    <br>
+    <button type="button">Submit</button>
+  </form>
+</body>
+</html>
