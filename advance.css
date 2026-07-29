@@ -1,0 +1,40 @@
+:root {
+  --primary: lightblue;
+  --secondary: lightgreen;
+}
+
+input[type="email"] {
+  border: 1px solid red;
+}
+
+button[data-role="primary"] {
+  border: 2px solid brown;
+}
+
+[data-status="error"] {
+  color: blue;
+}
+
+table>thead>tr:nth-child(odd) {
+  background-color: var(--secondary);
+}
+
+table>tbody>tr:nth-child(even) {
+  background-color: var(--secondary);
+}
+
+table>tbody>tr:nth-child(odd) {
+  background-color: var(--primary);
+}
+
+ul > li:nth-child(even) {
+  background-color: var(--secondary);
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+article h2+p::first-letter {
+  font-size: 30px;
+}
