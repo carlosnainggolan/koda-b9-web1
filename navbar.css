@@ -8,8 +8,6 @@ nav {
 ul {
   list-style: none;
   padding: 0;
-  display: flex;
-  flex-direction: column;
 }
 
 li {
@@ -18,9 +16,7 @@ li {
 }
 
 @media screen and (min-width: 728px) and (max-width: 1024px) {
-    ul {
-      display: flex;
-      flex-direction: row;
-      gap: 20px;
+    ul > li {
+      display: inline-block
     }
 }
